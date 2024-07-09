@@ -1,3 +1,8 @@
+/* Magic Mirror
+ * Module: mkcpss
+ * Magic Mirror显示中文的小学生数学知识点
+ * By 胡迪
+ */
 const NodeHelper = require("node_helper");
 
 module.exports = NodeHelper.create({
