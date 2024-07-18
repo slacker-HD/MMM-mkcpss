@@ -55,7 +55,6 @@ Module.register("MMM-mkcpss", {
 
 	socketNotificationReceived (notification, data) {
 		Log.info("data");
-		Log.info(data);
 		if (notification === "getmkcpss_r") {
 			Log.info("获取数学数据。");
 			this.HistoryData = data;
